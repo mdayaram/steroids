@@ -1,0 +1,28 @@
+body { 
+    color: #000000; 
+    background-color: #ffffff;
+}
+
+table.main { 
+    width: 770px;
+    border: 0;
+}
+
+h1 {
+    font-family: georgia, times, serif;
+    font-size: 28pt;
+    margin-left: 2cm;
+    margin-top: .4cm;
+    margin-bottom: 0cm;
+}
+
+td.maintext {
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+td.bottom {
+    text-align: center;
+    font-family: serif;
+    font-size: 9pt;
+}

@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>Steroids Shop</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+</head>
+<body>
+<center>
+<br>
+<table class="main" cellpadding=0 cellspacing=0>
+<tr><td width=245 height=122 colspan=2>
+<a href="index.html"><img src="images/guy.gif" alt="Steroids Shop" border=0></a></td>
+<td width=525 height=122 colspan=1>
+<MAP Name="topnav"id="topnav"> 
+<AREA Shape="poly" Coords="97,36,228,21,223,98,94,103" Href="index.html"> 
+
+<AREA Shape="poly" Coords="263,37,361,21,369,98,263,104" Href="notfound.html"> 
+
+<AREA Shape="poly" Coords="423,36,523,24,525,95,424,106" Href="notfound.html"> 
+</MAP>
+<img usemap="#topnav" src="images/topmenu.gif" border=0></td>
+</tr>
+<tr>
+<td background="images/title.gif" width=770 height=96 colspan=3>
+<h1>
+Steroid Shop
+</h1>
+<br><br>
+</td>
+</tr>
+<tr>
+<td valign="top" width="130" colspan=1>
+
+<table cellpadding=0 cellspacing=0 width=130>
+<tr><td>
+<a href="syringes.html">
+<img src="images/syringes.gif" alt="Syringes" border=0></a></td></tr>
+<tr><td><img src="images/belowsyringes.gif" border=0></td></tr>
+<tr><td>
+<a href="store.html">
+<img src="images/store.gif" alt="Steroid Store" border=0></a></td></tr>
+<tr><td><img src="images/belowstore.gif" border=0></td></tr>
+<tr><td>
+<a href="notfound.html">
+<img src="images/used.gif" alt="Used Products" border=0></a>
+</td></tr>
+<tr><td><img src="images/belowused.gif" border=0>
+</td></tr>
+</table>
+
+</td>
+<td class="maintext" valign="top" colspan=2>
+
+<!--Main Part of Form Starts Here-->
+
+
+<center>
+<form name="Whattobuy" action="thankyou.html" method="post">
+<table width=500 cellpadding=10 cellspacing=10 border=0>
+
+<font face="sans serif" size=4>
+Please fill in the following information.  It is important that you are old 
+enough and that everything you want is in stock.  Within 5 days, you will receive an email
+confirming if everything is in stock.  We will then call you so that
+you can confirm the order and we will provide you with details on the cost and shipping.<br><br>
+
+<!--Fill Forms with Text Size Restrictions-->
+<tr><td align="left">
+Name, Age
+</td>
+<td>
+<input type="text" size="45" name="name">
+</td></tr>
+<tr><td align="left">
+Email:
+</td>
+<td>
+<input type="text" size="45" name="email">
+</td></tr>
+
+<tr><td align="left">
+Phone Number (include area code):
+</td>
+<td>
+<input type="text" size="20" name="phone">
+</td></tr>
+
+<!--Radio Buttons-->
+<tr><td align="left">
+What Type of Needles?
+</td>
+<td>
+<input type="radio" name="needletype" value="new"/> New<br>
+<input type="radio" name="needletype" value="used"/> Used<br>
+<input type="radio" name="needletype" value="mix"/> Half a set of each<br>
+</td></tr>
+
+<tr><td align="left">
+How Many?
+</td>
+<td>
+<input type="radio" name="amount" value="10"/> 10<br>
+<input type="radio" name="amount" value="20"/> 20<br>
+<input type="radio" name="amount" value="50"/> 50<br>
+</td></tr>
+
+<!--Drop Down Menu-->
+<tr><td align="left">
+Needle Size
+</td>
+<td>
+<select>
+   <option value="NULL">Please choose a set</option>
+   <option value="small">Small</option>
+   <option value="regular">Regular</option>
+   <option value="large">Large</option>
+   <option value="mix1">Half set of small and regular</option>
+   <option value="mix2">Half set of small and large</option>
+   <option value="mix3">Half set of regular and large</option>
+   <option value="mix1">One-third set of each</option>
+</select>
+</td></tr>
+
+<!--Checkbox Options-->
+<tr><td align="left">
+Steroid Choice
+</td>
+<td>
+<input type="checkbox" name="anabolic" value="Anabolic"/> Anabolic<br>
+<input type="checkbox" name="medical" value="Medical"/> Medical<br>
+<input type="checkbox" name="fun" value="fun"/> Fun<br>
+<input type="checkbox" name="other" value="other"/> Other<br>
+
+</td></tr>
+
+<!--Textbox for Additional Information-->
+<tr><td align="left" colspan="2">
+Please list any specific brands you prefer and any other requests on your choice of 
+needles or syringes:<br>
+<textarea id="crequests" wrap="hard" rows="5" cols="55" align = "left"></textarea>
+</td></tr>
+</table>
+
+<!--Reset and Submit Buttons-->
+<input type="submit"value="Submit" name = "submit"/>
+<input type= "reset"value="Reset" name="reset"/>
+
+
+<br><br><br>
+<tr><td class="bottom" colspan=3>
+<hr>
+<a href="mailto:wawong@andrew.cmu.edu">Wiseley Wong</a> &copy; CMU Publishing in the WWW
+</td></tr>
+</table>
+</center>
+
+</body>
+</html>
